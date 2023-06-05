@@ -18,7 +18,6 @@ def equal():
         messagebox.showinfo(title='Sth went wrong', message='SYNTAX ERROR')
 
 
-
 e1 = tk.Entry(root, width=18, borderwidth=5, font=(None, 20), relief=tk.SUNKEN)
 e1.grid(row=0, column=0, columnspan=4)
 
