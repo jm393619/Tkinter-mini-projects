@@ -33,24 +33,19 @@ def _move():
 
     global a, b
     if canvas.coords(ball)[0] < 0:
-        # a += random.choice([1, 1, -1])
-        # b += random.choice([1, 1, -1])
+
         a = -a
 
     elif canvas.coords(ball)[1] < 0:
-        # a += random.choice([1, 1, -1])
-        # b += random.choice([1, 1, -1])
+
         b = -b
 
     elif canvas.coords(ball)[2] > 390:
-        # a += random.choice([1, 1, -1])
-        # b += random.choice([1, 1, -1])
+
         a = -a
 
     elif canvas.coords(ball)[3] > 200:
         if canvas.coords(ball)[0] > canvas.coords(rec)[0] and canvas.coords(ball)[2] < canvas.coords(rec)[2]:
-            # a += random.choice([1, 1, -1])
-            # b += random.choice([1, 1, -1])
             b = -b
         else:
             messagebox.showinfo(title='Game over', message='Game over')
