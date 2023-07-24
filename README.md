@@ -11,3 +11,4 @@
 9. bouncing_ball
 10. arkanoid
 11. clock
+12. puzzle
