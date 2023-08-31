@@ -56,7 +56,7 @@ class Pong(tk.Tk):
 
         self.after(50, self.looper)
 
-    def ball_move(self, x = -10, y = 10):
+    def ball_move(self, x=-10, y=10):
 
         coord = self.canvas.coords(self.ball)
         coord_p1 = self.canvas.coords(self.p1)
