@@ -12,3 +12,5 @@
 10. arkanoid
 11. clock
 12. puzzle
+13. pong
+14. gravity_simulator
