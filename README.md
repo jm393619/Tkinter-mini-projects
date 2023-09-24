@@ -14,3 +14,4 @@
 12. puzzle
 13. pong
 14. gravity_simulator
+15. tetris
