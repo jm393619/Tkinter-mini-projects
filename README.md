@@ -16,3 +16,4 @@
 14. gravity_simulator
 15. tetris
 16. flappy_bird
+17. logic_puzzle
