@@ -17,3 +17,4 @@
 15. tetris
 16. flappy_bird
 17. logic_puzzle
+18. tic_tac_toe
